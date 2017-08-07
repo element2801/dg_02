@@ -1,0 +1,22 @@
+html, body, .container {
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+    font-size: larger;
+}
+
+.container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("https://big-rostov.ru/wp-content/uploads/2014/07/dgtu.jpg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.vertical-align {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
